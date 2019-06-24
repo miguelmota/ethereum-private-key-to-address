@@ -21,6 +21,22 @@ console.log(privateKeyToAddress('4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46
 console.log(privateKeyToAddress('0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d')) // '0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1'
 ```
 
+## CLI
+
+Install:
+
+```bash
+npm install -g ethereum-private-key-to-address
+```
+
+Convert private key to public address:
+
+```bash
+$ ethereum_private_key_to_address 4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d
+
+0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+```
+
 ## Test
 
 ```bash

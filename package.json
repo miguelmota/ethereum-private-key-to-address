@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Convert an Ethereum private key to a public address",
   "main": "index.js",
+  "bin": {
+    "ethereum_private_key_to_address": "bin/ethereum_private_key_to_address"
+  },
   "scripts": {
     "test": "tape test/*.js",
     "lint": "standard --fix index.js test/test.js example/example.js"
@@ -27,6 +30,7 @@
   "dependencies": {
     "ethereum-checksum-address": "0.0.2",
     "keccak256": "^1.0.0",
+    "meow": "^5.0.0",
     "secp256k1": "^3.7.1"
   },
   "keywords": [
