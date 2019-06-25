@@ -1,6 +1,6 @@
 {
   "name": "ethereum-private-key-to-address",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert an Ethereum private key to a public address",
   "main": "index.js",
   "bin": {
@@ -28,10 +28,9 @@
     "url": "https://github.com/miguelmota/ethereum-private-key-to-address/blob/master/LICENSE"
   },
   "dependencies": {
-    "ethereum-checksum-address": "0.0.2",
-    "keccak256": "^1.0.0",
-    "meow": "^5.0.0",
-    "secp256k1": "^3.7.1"
+    "ethereum-private-key-to-public-key": "0.0.2",
+    "ethereum-public-key-to-address": "0.0.1",
+    "meow": "^5.0.0"
   },
   "keywords": [
     "ethereum",
