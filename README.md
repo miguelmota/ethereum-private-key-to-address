@@ -5,6 +5,10 @@
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/ethereum-private-key-to-address/master/LICENSE)
 [![NPM version](https://badge.fury.io/js/ethereum-private-key-to-address.svg)](http://badge.fury.io/js/ethereum-private-key-to-address)
 
+## Demo
+
+[https://lab.miguelmota.com/etherereum-private-key-to-address](https://lab.miguelmota.com/ethereum-private-key-to-address)
+
 ## Install
 
 ```bash
