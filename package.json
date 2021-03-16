@@ -1,11 +1,11 @@
 {
   "name": "ethereum-private-key-to-address",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convert an Ethereum private key to a public address",
   "main": "index.js",
   "bin": {
     "ethereum_private_key_to_address": "bin/ethereum_private_key_to_address",
-    "ethereum-private_key-to-address": "bin/ethereum_private_key_to_address"
+    "ethereum-private-key-to-address": "bin/ethereum_private_key_to_address"
   },
   "scripts": {
     "test": "tape test/*.js",
