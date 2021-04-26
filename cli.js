@@ -40,6 +40,6 @@ function run() {
     process.exit(1)
   }
 
-  console.log(privateKeyToAddress(privateKey))
+  process.stdout.write(privateKeyToAddress(privateKey))
   process.exit(0)
 }
